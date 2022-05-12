@@ -33,7 +33,7 @@
       <a class="navbar-brand" href="#">
         <h2>Coca</h2>
         <h2>Cola</h2>
-        <p>Things are better with CocaCola</p>
+        <p>Things are better with Coca Cola</p>
       </a>
     </div>
 
@@ -42,7 +42,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- link Menu Icon button to the links class navbar-collapse selector] -->
+     <!-- nav bar -->
     <div class="collapse navbar-collapse">
       <!-- Links -->
       <ul class="navbar-nav ml-auto">
@@ -55,7 +55,7 @@
         </li>
 
         <li class="nav-item">
-          <a id="navStatement" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom">Statement of Originality</a>
+          <a id="navStatement" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom">Statement and Links</a>
         </li>
 
         <li class="nav-item">
@@ -73,21 +73,16 @@
     </div>
   </nav>
 
-  <!-- This is the main contents of the page, it has a background image across 1 column, followed by three columns holding cards in a row for the 3 images and associated texts
-      -->
   <div class="container-fluid">
 
     <!-- This is the home page contents -->
     <div id="home" class="main_contents">
       <!-- A row for the main 3D image theme — could make this a Jubotron with a carousel -->
       <div class="row">
-        <!-- <div class="col-sm-12"> -->
         <div class="col">
           <div id="main_3d_image">
           </div>
-          <!-- <div id="main_text" class="col-xs-12 col-sm-4"> -->
         </div>
-        <!-- <div id="main_text" class="d-flex flex-column"> -->
         <div id="main_text" class="col-xs-12 col-sm-4">
           <div id="title_home"></div>
           <div id="subTitle_home"></div>
@@ -147,7 +142,7 @@
     <div id="statement" style="display:none;">
       <div class="row">
         <div class="text">
-          <h><strong>Statement and Information</strong></h>
+          <h><strong>Statement and Links</strong></h>
           <br>
           <hr>
           <br>
@@ -155,8 +150,14 @@
           <br>
           <hr>
           <br>
-          <p>Github link: </p>
-        </div>
+          <p>Github link: <a href="https://github.com/sykwok3/Web3DAssignment.git">Here</a></p>
+          <br>
+          <p>X3D Models: <a href="https://github.com/sykwok3/Web3DAssignment/tree/main/application/assets/x3d">Here</a></p>
+          <br>
+          <p>3DS Max Archive: <a href="https://github.com/sykwok3/Web3DAssignment/tree/main/3ds%20Max%20archive">Here</a></p>
+          <br>
+          <hr>
+          </div>
       </div>
     </div>
 
@@ -244,7 +245,7 @@
                   <div id="title_pepper" class="card-title drinksText"></div>
                   <div id="subTitle_pepper" class="card-subtitle drinksText"></div>
                   <!-- <div id="description_pepper" class="card-text drinksText"></div>   -->
-                  <div class="card-text drinksText"><?php echo $data[3]['modelDescription']; ?> </div>
+                  <div class="card-text drinksText"><?php echo $data[2]['modelDescription']; ?> </div>
                   <a href="https://www.coca-cola.co.uk/brands/fanta" class="btn btn-dark btn-responisve">Visit Fanta.</a>
                 </div>
               </div>
@@ -301,8 +302,6 @@
     <!-- gallery page -->
     <div id="gallery" style="display:none;">
       <!-- gallery -->
-      <!-- <div class="row">
-          <div class="col-sm-8"> -->
       <div class="card text-center" id="gallery_card">
         <div class="card-body">
           <div class="d-flex flex-column">
@@ -312,9 +311,6 @@
           </div>
         </div>
       </div> <!-- End gallery card -->
-      <!-- </div> -->
-      <!-- </div> -->
-
     </div><!-- End gallery page -->
 
   </div> <!-- End 3D App SPA Contents -->
@@ -328,7 +324,7 @@
         <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
         <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
         <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
-        <a href="#"><i class="fab fa-github-square fa-2x"></i></a>
+        <a href="https://github.com/sykwok3/Web3DAssignment.git"><i class="fab fa-github-square fa-2x"></i></a>
       </div>
     </div>
   </nav>
